@@ -1,0 +1,28 @@
+# Les moteurs de recherche sont les bienvenus.
+User-agent: *
+Allow: /
+
+# Robots qui collectent des contenus pour entraîner des modèles d'IA : refusés.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
